@@ -9,6 +9,9 @@ class QtContainer : public QWidget
 public:
     explicit QtContainer(QWidget *parent = nullptr);
 
+private:
+    void test();
+    void testQList();
 };
 
 #endif // QTCONTAINER_H
