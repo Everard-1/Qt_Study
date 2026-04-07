@@ -12,6 +12,7 @@ public:
 private:
     void test();
     void testQList();
+    void practiceQList();
 };
 
 #endif // QTCONTAINER_H
