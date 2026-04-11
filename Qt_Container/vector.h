@@ -6,6 +6,8 @@ class Vector
 public:
     Vector();
 
+    // QVector基本使用
+    void testQVector();
 };
 
 #endif // VECTOR_H

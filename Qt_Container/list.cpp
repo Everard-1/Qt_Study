@@ -36,6 +36,13 @@ void List::testQList()
     debug << Qt::endl;
 }
 
+/**
+ * @brief List::practiceQList
+ * @description: QList练习
+ * 创建 QList 存储 10 个随机整数
+ * 计算总和、平均值、最大值、最小值
+ * 删除所有偶数，输出结果
+ */
 void List::practiceQList()
 {
     QList<int> randomList;
