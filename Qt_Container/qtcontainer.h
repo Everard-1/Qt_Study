@@ -1,18 +1,19 @@
 #ifndef QTCONTAINER_H
 #define QTCONTAINER_H
 
-#include <QWidget>
+#include <QObject>
+#include "list.h"
 
-class QtContainer : public QWidget
+class QtContainer : public QObject
 {
     Q_OBJECT
 public:
-    explicit QtContainer(QWidget *parent = nullptr);
+    QtContainer();
+
+    void test();
 
 private:
-    void test();
-    void testQList();
-    void practiceQList();
+    List list; // 添加List成员变量
 };
 
 #endif // QTCONTAINER_H
