@@ -1,10 +1,16 @@
 #include "qtcontainer.h"
 
-QtContainer::QtContainer(){}
+QtContainer::QtContainer(QObject *parent)
+    : QObject{parent}
+{}
 
 void QtContainer::test()
 {
-    list.testQList();
-    list.practiceQList();
+    // QList基本使用
+    // list.testQList();
+    // list.practiceQList();
+
+    // QVector基本使用
+    vector.testQVector();
 }
 

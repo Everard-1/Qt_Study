@@ -11,11 +11,13 @@ CONFIG += c++17
 SOURCES += \
     list.cpp \
     main.cpp \
-    qtcontainer.cpp
+    qtcontainer.cpp \
+    vector.cpp
 
 HEADERS += \
     list.h \
-    qtcontainer.h
+    qtcontainer.h \
+    vector.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
