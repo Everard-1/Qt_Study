@@ -1,11 +1,7 @@
 #ifndef LIST_H
 #define LIST_H
-
-#include <QObject>
-
-class List : public QObject
+class List 
 {
-    Q_OBJECT
 public:
     List();
 

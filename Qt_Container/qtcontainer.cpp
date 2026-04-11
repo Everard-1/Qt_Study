@@ -1,6 +1,8 @@
 #include "qtcontainer.h"
 
-QtContainer::QtContainer(){}
+QtContainer::QtContainer(QObject *parent)
+    : QObject{parent}
+{}
 
 void QtContainer::test()
 {
